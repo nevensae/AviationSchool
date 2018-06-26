@@ -1,0 +1,244 @@
+body {
+	margin: 0;
+}
+
+h1, p {
+	margin: 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header .header-blue {
+	background-color: #274f75;
+	height: 147px;
+}
+
+header .header-blue .container {
+	height: 147px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .header-blue .container h1 {
+	font-family: "Times", serif;
+	font-size: 64px;
+	text-transform: uppercase;
+}
+
+header .header-blue h1,
+header .header-blue .header-info {
+	display: inline-block;
+	color: #fff;
+}
+
+header .header-blue .header-info p:first-of-type {
+	margin-bottom: 10px;
+}
+
+
+header nav {
+	background-color: #82bd0e;
+	height: 40px;
+	border-bottom: 1px solid red;
+	box-shadow: 0 1px 3px #519bb0;
+}
+
+header nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+header nav ul li {
+	display: inline-block;
+	height: 40px;
+	transition: .6s;
+}
+
+header nav ul li:hover {
+	background-color: #fff;
+	border-bottom: 5px solid red;
+}
+
+header nav ul li:hover a {
+	color: #274f75;
+}
+
+header nav ul li a {
+	font-family: "Arial", serif;
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0 24px;
+}
+
+main #hero {
+	background-image: url('../img/asd.png');
+	height: 450px;
+}
+
+main #hero .container {
+	position: relative;
+	height: 450px;
+}
+
+main #hero .container .hero-text {
+	color: #274f75;
+	position: absolute;
+	left: 0;
+	top: 110px;
+	width: 440px;
+}
+
+main #hero .container .hero-text h1 {
+	font-size: 55px;
+}
+
+main #hero .container .hero-text p {
+	font-size: 25px;
+}
+
+main #hero img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 99%;	
+	
+}
+
+.content {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;		
+}
+
+.content {
+	overflow: hidden;
+}
+
+.left-side, .right-side {
+	display: inline-block;
+}
+
+.left-side {
+	width: 63%;
+	float: left;
+}
+
+.right-side {
+	width: 35%;
+	float: right;
+}
+
+
+.top {
+	box-sizing: border-box;
+}
+.top-left {
+	width: 25%;
+
+}
+
+.top-right p:first-of-type {
+	padding-bottom: 10px;
+}
+
+.top-right {
+	width: 70%;
+	float: right;
+}
+
+.top-left, .top-right {
+	display: inline-block;
+}
+
+.bottom .pannel  p:first-of-type {
+	padding-bottom: 20px;
+}
+
+.pannel {
+	display: inline-block;
+	width: 49%;
+}
+
+.squares, .dj {
+	display: inline-block;
+}
+
+.squares {
+	width: 30px;
+	background-color: #274f75;
+	color: white;
+}
+
+.dj h3 {
+	color: #274f75;
+}
+
+.dj {
+	width: 50%;
+}
+
+.squares p:first-of-type {
+	text-align: right;
+}
+
+.squares p:nth-of-type(2) {
+	text-align: center;
+}
+
+footer {
+	background-color: #274f75;
+	height: 100px;
+	width: 100%;
+}
+
+
+footer nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+
+.blue-right ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.blue-right {
+	display: inline-block;
+}
+
+.blue-right li {
+	position: relative;
+	display: inline-block;
+	border-right: 1px solid black;
+	padding-right: 5px;	
+}
+
+
+.icons img:first-of-type {
+	background: url('../img/facebook.png');
+	width: 20px;
+	
+}
+
+nav .blue-right ul li {
+	display: inline-block;
+}
+
+.blue-right {
+	float: right;
+}
+
+.copyright-text {
+	display: inline-block;
+	color: white;
+	float: right;
+}
